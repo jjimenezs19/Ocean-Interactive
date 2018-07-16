@@ -1,6 +1,8 @@
 .header{
   border-bottom: 3px solid $primary-color;
-  padding: 15px 0;
+  @media(min-width: 768px){
+    padding: 15px 0;
+  }
   .logo-cont{
     img{
       max-width: 280px;
@@ -8,15 +10,61 @@
     }
   }
   .nav{
-    padding-top: 25px;
+    width: 75%;
+    @media(min-width: 768px){
+      padding-top: 5px;
+      float: right;
+    }
+    @media(min-width: 1024px){
+      padding-top: 15px;
+    }
+
     ul{
       list-style: none;
       .nav-item{
+        width: 25%;
+        text-align: center;
         display: inline-block;
         margin-left: 10px;
         a{
           font-size: 16px;
           font-family: $main-font-family;
+          font-weight: 600;
+          &:hover{
+            text-decoration: none;
+            color:$primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile-nav{
+  overflow: hidden;
+  background-color: $white;
+  position: fixed;
+  border-top:2px solid $primary-color;
+  bottom: 0;
+  width: 100%;
+  //-webkit-box-shadow: -1px -6px 7px -4px rgba(0,0,0,0.75);
+  //-moz-box-shadow: -1px -6px 7px -4px rgba(0,0,0,0.75);
+  //box-shadow: -1px -6px 7px -4px rgba(0,0,0,0.75);
+  padding: 10px 0;
+  ul{
+    margin: 0;
+    >li{
+      width: 25%;
+      text-align: center;
+      display: inline-block;
+      margin-left: 10px;
+      a{
+        font-size: 16px;
+        font-family: $main-font-family;
+        font-weight: 600;
+        &:hover{
+          text-decoration: none;
+          color:$primary-color;
         }
       }
     }

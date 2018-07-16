@@ -1,0 +1,15 @@
+.footer{
+  overflow: hidden;
+  background-color: $primary-color;
+  width: 100%;
+  padding: 10px;
+  @media (min-width: 768px) {
+    position: absolute;
+    bottom: 0;
+  }
+  p{
+    margin: 0;
+    color: $white;
+    font-family: $main-font-family;
+  }
+}

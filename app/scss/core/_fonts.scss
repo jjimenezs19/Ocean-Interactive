@@ -1,1 +1,241 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+//Icon Fonts
+@import "fonts_vars";
+@font-face {
+  font-family: 'icomoon-oncean';
+  src:  url('#{$icomoon-font-path}/icomoon-oncean.eot?yyoljs');
+  src:  url('#{$icomoon-font-path}/icomoon-oncean.eot?yyoljs#iefix') format('embedded-opentype'),
+  url('#{$icomoon-font-path}/icomoon-oncean.ttf?yyoljs') format('truetype'),
+  url('#{$icomoon-font-path}/icomoon-oncean.woff?yyoljs') format('woff'),
+  url('#{$icomoon-font-path}/icomoon-oncean.svg?yyoljs#icomoon-oncean') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-oncean' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-image {
+  &:before {
+    content: $icon-image;
+  }
+}
+.icon-stack {
+  &:before {
+    content: $icon-stack;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location;
+  }
+}
+.icon-display {
+  &:before {
+    content: $icon-display;
+  }
+}
+.icon-laptop {
+  &:before {
+    content: $icon-laptop;
+  }
+}
+.icon-mobile {
+  &:before {
+    content: $icon-mobile;
+  }
+}
+.icon-mobile2 {
+  &:before {
+    content: $icon-mobile2;
+  }
+}
+.icon-tablet {
+  &:before {
+    content: $icon-tablet;
+  }
+}
+.icon-drive {
+  &:before {
+    content: $icon-drive;
+  }
+}
+.icon-database {
+  &:before {
+    content: $icon-database;
+  }
+}
+.icon-bubble2 {
+  &:before {
+    content: $icon-bubble2;
+  }
+}
+.icon-bubbles3 {
+  &:before {
+    content: $icon-bubbles3;
+  }
+}
+.icon-hour-glass {
+  &:before {
+    content: $icon-hour-glass;
+  }
+}
+.icon-spinner10 {
+  &:before {
+    content: $icon-spinner10;
+  }
+}
+.icon-lock {
+  &:before {
+    content: $icon-lock;
+  }
+}
+.icon-equalizer {
+  &:before {
+    content: $icon-equalizer;
+  }
+}
+.icon-cogs {
+  &:before {
+    content: $icon-cogs;
+  }
+}
+.icon-magic-wand {
+  &:before {
+    content: $icon-magic-wand;
+  }
+}
+.icon-pie-chart {
+  &:before {
+    content: $icon-pie-chart;
+  }
+}
+.icon-rocket {
+  &:before {
+    content: $icon-rocket;
+  }
+}
+.icon-bin {
+  &:before {
+    content: $icon-bin;
+  }
+}
+.icon-sphere {
+  &:before {
+    content: $icon-sphere;
+  }
+}
+.icon-loop2 {
+  &:before {
+    content: $icon-loop2;
+  }
+}
+.icon-circle-up {
+  &:before {
+    content: $icon-circle-up;
+  }
+}
+.icon-embed2 {
+  &:before {
+    content: $icon-embed2;
+  }
+}
+.icon-mail2 {
+  &:before {
+    content: $icon-mail2;
+  }
+}
+.icon-facebook2 {
+  &:before {
+    content: $icon-facebook2;
+  }
+}
+.icon-whatsapp {
+  &:before {
+    content: $icon-whatsapp;
+  }
+}
+.icon-telegram {
+  &:before {
+    content: $icon-telegram;
+  }
+}
+.icon-wordpress {
+  &:before {
+    content: $icon-wordpress;
+  }
+}
+.icon-appleinc {
+  &:before {
+    content: $icon-appleinc;
+  }
+}
+.icon-android {
+  &:before {
+    content: $icon-android;
+  }
+}
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin;
+  }
+}
+.icon-chrome {
+  &:before {
+    content: $icon-chrome;
+  }
+}
+.icon-firefox {
+  &:before {
+    content: $icon-firefox;
+  }
+}
+.icon-IE {
+  &:before {
+    content: $icon-IE;
+  }
+}
+.icon-edge {
+  &:before {
+    content: $icon-edge;
+  }
+}
+.icon-safari {
+  &:before {
+    content: $icon-safari;
+  }
+}
+.icon-opera {
+  &:before {
+    content: $icon-opera;
+  }
+}
+.icon-html-five {
+  &:before {
+    content: $icon-html-five;
+  }
+}
+.icon-css3 {
+  &:before {
+    content: $icon-css3;
+  }
+}
+

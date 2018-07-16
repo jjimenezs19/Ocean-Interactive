@@ -1,0 +1,19 @@
+.services{
+  margin-top: 30px;
+  .services-container{
+    .service-box{
+      .service-ico{
+        background-color: $primary-color;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        margin: 0 auto;
+        padding-top: 15px;
+        >i{
+          color:$white;
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}

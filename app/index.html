@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ocean Interactive</title>
-
+    <link rel="icon" type="image/png" href="images/minilogo22.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -14,17 +14,17 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                     <div class="logo-cont">
                         <img src="images/Logo.PNG" alt="logo" class="img-responsive center-block">
                     </div>
                 </div>
-                <div class="col-sm-8">
-                    <div class="nav pull-right">
+                <div class="col-xs-12 col-sm-8">
+                    <div class="nav hidden-xs">
                         <ul>
-                            <li class="nav-item"><a href="#">About</a></li>
-                            <li class="nav-item"><a href="#">Services</a></li>
-                            <li class="nav-item"><a href="#">Contact</a></li>
+                            <li class="nav-item ui-box topBottom-leftRightCorner"><a href="#" class="ui-border-element">About</a></li>
+                            <li class="nav-item ui-box topBottom-leftRightCorner"><a href="#" class="ui-border-element">Services</a></li>
+                            <li class="nav-item ui-box topBottom-leftRightCorner"><a href="#" class="ui-border-element">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,27 +32,90 @@
         </div>
     </header>
     <main>
-        <section class="main-banner">
+        <!--<section class="main-banner">-->
+            <!--<div class="container">-->
+                <!--<h1 class="banner-main-title">Web Development</h1>-->
+                <!--<p class="banner-text">-->
+                    <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias consectetur, cupiditate dolor,-->
+                    <!--doloremque eos eum hic inventore nam nihil, numquam obcaecati odit omnis veritatis voluptatibus.-->
+                    <!--Delectus expedita ipsum vel?-->
+                <!--</p>-->
+                <!--<button class="btn btn-go">-->
+                    <!--<a href="#">Go To Services</a>-->
+                <!--</button>-->
+            <!--</div>-->
+        <!--</section>-->
+        <section class="about">
             <div class="container">
-                <h1 class="banner-main-title">Web Development</h1>
-                <p class="banner-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias consectetur, cupiditate dolor,
-                    doloremque eos eum hic inventore nam nihil, numquam obcaecati odit omnis veritatis voluptatibus.
-                    Delectus expedita ipsum vel?
-                </p>
-                <button class="btn btn-go">
-                    <a href="#">Go To Services</a>
-                </button>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="about-box-left">
+                            <h1>left</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="about-box-right">
+                            <h1>right</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <div class="container">
-            <section class="about">
-                <h1 class="main-title">
-                    About Us
-                </h1>
-            </section>
-        </div>
+        <section class="services">
+            <div class="container">
+                <div class="services-container">
+                    <h1 class="main-title">Services</h1>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="service-box">
+                                <div class="service-ico text-center">
+                                    <i class="icon-display"></i>
+                                </div>
+                                <div class="service-desc">
+                                    <h4 class="text-center">Title</h4>
+                                    <p class="text-center">lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="service-box">
+                                <div class="service-ico text-center">
+                                    <i class="icon-magic-wand"></i>
+                                </div>
+                                <div class="service-desc">
+                                    <h4 class="text-center">Title</h4>
+                                    <p class="text-center">lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="service-box">
+                                <div class="service-ico text-center">
+                                    <i class="icon-database"></i>
+                                </div>
+                                <div class="service-desc">
+                                    <h4 class="text-center">Title</h4>
+                                    <p class="text-center">lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="copy-container text-center">
+            <p>Lorem ipsum dolor sit ame</p>
+        </div>
+    </footer>
+    <div class="mobile-nav hidden-sm hidden-md hidden-lg">
+        <ul>
+            <li class="nav-item ui-box topBottom-leftRightCorner"><a href="#" class="ui-border-element">About</a></li>
+            <li class="nav-item ui-box topBottom-leftRightCorner"><a href="#" class="ui-border-element">Services</a></li>
+            <li class="nav-item ui-box topBottom-leftRightCorner"><a href="#" class="ui-border-element">Contact</a></li>
+        </ul>
+    </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
