@@ -1,73 +1,81 @@
 .services{
-  margin-top: 30px;
-  .services-container{
-    padding-top: 70px;
-    .service-card{
-      position: relative;
-      perspective: 150rem;
-      -moz-perspective: 150rem;
-      height: 200px;
-      .service-box{
-        position: absolute;
-        border:2px solid $primary-color;
-        border-radius: 3px;
-        width: 100%;
+  margin-top: 40px;
+  transform: skewY(-4deg);
+  background-color: #eee;
+  height: auto;
+  padding-bottom: 8rem;
+  .service-sub{
+    transform: skewY(4deg);
+    .services-container{
+      padding-top: 70px;
+      .service-card{
+        position: relative;
+        perspective: 150rem;
+        -moz-perspective: 150rem;
         height: 200px;
-        transition: all .8s ease;
-        backface-visibility: hidden;
-        box-shadow: 0 1.5rem 4rem rgba(#333, .15);
-        &--front{
-        }
-        &--back{
-          //background-image: linear-gradient(to right bottom, lighten($primary-color, 15%), darken($primary-color,10%));
-          transform: rotateY(180deg);
-        }
-        .service-box-inside{
-          position: relative;
-          .service-desc{
-            padding: 35px 20px 0 20px;
-            font-family: $main-font-family;
-            color:$gray-primary-color;
+        .service-box{
+          position: absolute;
+          border:2px solid $primary-color;
+          border-radius: 3px;
+          width: 100%;
+          height: 200px;
+          transition: all .8s ease;
+          backface-visibility: hidden;
+          //box-shadow: 0 1.5rem 4rem rgba(#333, .15);
+          box-shadow: $boxes-box-shadow;
+          &--front{
           }
-          .service-ico{
-            position: absolute;
-            top: -40px;
-            right: 0;
-            left: 0;
-            margin: auto;
-            border-radius: 50%;
-            height: 70px;
-            width: 70px;
-            padding-top: 15px;
-            border: 2px solid $primary-color;
-            background-color: white;
-            >i{
-              font-size: 35px;
-              color:$primary-color;
+          &--back{
+            //background-image: linear-gradient(to right bottom, lighten($primary-color, 15%), darken($primary-color,10%));
+            transform: rotateY(180deg);
+          }
+          .service-box-inside{
+            position: relative;
+            .service-desc{
+              padding: 35px 20px 0 20px;
+              font-family: $main-font-family;
+              color:$gray-primary-color;
             }
-            &--front{
-              //background-color: $white;
-              //>i{
-              //  color:$white;
-              //  font-size: 35px;
-              //}
-            }
-            &--back{
-              //background-color: $white;
-              //>i{
-              //  color:$primary-color;
-              //}
+            .service-ico{
+              position: absolute;
+              top: -40px;
+              right: 0;
+              left: 0;
+              margin: auto;
+              border-radius: 50%;
+              height: 70px;
+              width: 70px;
+              padding-top: 15px;
+              border: 2px solid $primary-color;
+              background-color: white;
+              >i{
+                font-size: 35px;
+                color:$primary-color;
+              }
+              &--front{
+                //background-color: $white;
+                //>i{
+                //  color:$white;
+                //  font-size: 35px;
+                //}
+              }
+              &--back{
+                //background-color: $white;
+                //>i{
+                //  color:$primary-color;
+                //}
+              }
             }
           }
         }
+        &:hover .service-box--front{
+          transform: rotateY(-180deg);
+        }
+        &:hover .service-box--back{
+          transform: rotateY(0);
+        }
       }
-      &:hover .service-box--front{
-        transform: rotateY(-180deg);
-      }
-      &:hover .service-box--back{
-        transform: rotateY(0);
-      }
-    }
 
+    }
   }
 }
